@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/42c841adb9.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Anatytics <i ></i></p>
+                <h1>Hello, I'm <br><span>Monti</span> From India.</h1>
+            </div>
+            </div>
+        </div>
+        <!----------------about----------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/Photo.JPG">
+                    </div>
+                        <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>	I seek challenging opportunities where I can fully use my skills for the success of the organization. 
+                                	Enthusiastic and detail-oriented Data Analyst with strong skills in analyzing data, creating visual reports, and managing databases.
+                                	 Experienced with SQL,and Excel,Python and skilled in cleaning data, exploring data patterns, and making easy-tounderstand charts
+                                	 Pursuing a Master degree in Master of Computer Applications with courses in data structures,DBMS, algorithms, and machine learning.
+                                </p>
+
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('Project')" >Project</p>
+                                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                                </div>
+                                <div class="tab-contents active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Microsoft Excel</span></li>
+                                        <li><span>SQL</span></li>
+                                        <li><span>Python</span> </li>
+                                        <li><span>Power BI</span></li>
+                            
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="Project">
+                                    <ul>
+                                        <!-- <li><span>Sangeet</span><br>it's a music based app in which we hear songs and keep it or download it from the google as well as any link there is a
+                                            basically like Spotify app with lots of fearure.</li> -->
+                                        <li><span>Qnotes</span><br>it's a website which is for helping of my college students for the previous year question paper for the better preparison .
+                                            The same year notes for the better lerning this is basically for the students who missed the lecture or never done there
+                                            notes they prepared for exam by this website.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-contents" id="Education">
+                                    <ul>
+                                        <li><span>2024 to 2026</span><br>MCA from Tilkamanjhi Bhagalpur University</li>
+                                        <li><span>2020 to 2023</span><br>BA from Tilkamanjhi Bhagalpur University</li>
+                                        <li><span>2017 TO 2019</span><br>12th From TNB Colloge, Bhagalpur</li>
+                                        <li><span>2017</span><br>10th From G R S Saraswati Vidya Mandir, Nargakothi Bhagalpur</li>
+                                    </ul>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!----------services----------->
+<div id="Services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="Services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Data Visualization</h2>
+            <p>We use visualization tools and techniques to represent data in graphical
+                 formats such as charts, graphs, and dashboards. </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Data Mining</h2>
+            <p>We use data mining techniques to discover patterns,
+                 correlations, and trends within large datasets.  </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Data Analysis and Interpretation</h2>
+            <p>Data analysts analyze data using statistical and analytical 
+                techniques to derive insights and make data-driven decisions. </p>
+            <a href="#">Learn More</a>
+        </div>
+
+        </div>
+    </div>
+</div>
+<!----------portfolio----------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/a5 (1).jpg">
+                <div class="layer">
+                    <h3>Qnotes</h3>
+                    <p>it's a website which is for helping of my college students for the previous year question paper for the better preparison .</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/a8 (1).jpg">
+                <div class="layer">
+                    <h3>Sangeet</h3>
+                    <p>it's a music based app in which we hear songs and keep it or download it from the google as well as any link there is a
+                        basically like Spotify app with lots of fearure.
+                        </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/backImg2.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------contact----------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> montisrajj@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8271470432</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/monti-raj/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Monti Kr Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Monti. Thank you <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+        
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxCZLDt1coNGOC2ORRyMe59EoAN17vMH_h3J8i9iw9Q5W1NWGNnXS058lIGhYbaojb_/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+=        
+    </body>
+</html>
